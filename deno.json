@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env --allow-read --unstable-kv --unstable-cron --env main.ts",
+    "start": "deno run --allow-net --allow-env --unstable-kv --unstable-cron main.ts"
+  },
+  "imports": {
+    "@atproto/api": "npm:@atproto/api@^0.13"
+  },
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "deno.ns", "deno.unstable"]
+  }
+}
