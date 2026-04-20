@@ -2,6 +2,8 @@
 
 Automatically cross-posts your Mastodon posts to Bluesky. Polls your Mastodon account every 5 minutes and creates corresponding Bluesky posts, including image attachments and alt text.
 
+Easily deploy to Deno Deploy.
+
 ## Features
 
 - Polls for new Mastodon posts every 5 minutes
@@ -38,7 +40,7 @@ BLUESKY_PASSWORD=your_app_password_here
 deno task dev
 
 # Production
-deno task start
+deno task start --unstable-kv
 ```
 
 The service starts an HTTP health check on port 8000 and polls for new posts every 5 minutes.
