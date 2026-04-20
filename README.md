@@ -1,6 +1,6 @@
 # mastodon-bluesky-crosspost
 
-Automatically cross-posts your Mastodon posts to Bluesky. Polls your Mastodon account every 5 minutes and creates corresponding Bluesky posts, including image attachments and alt text.
+Automatically cross-posts your Mastodon posts to Bluesky. Polls your Mastodon account every 5 minutes and creates corresponding Bluesky posts, including image attachments and alt text. Written in TypeScript with Deno.
 
 Easily deploy to Deno Deploy.
 
